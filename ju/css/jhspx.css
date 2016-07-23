@@ -1,0 +1,391 @@
+*{ margin: 0; padding:0; list-style: none; font-family: '微软雅黑' }
+a{ text-decoration: none; font-size: 12px; color: #999;}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearfix{
+	zoom:1;
+}
+html{ font-size: 32px; }
+.page{ width: 10rem; margin: 0 auto; }
+.page .header{ width:100%;  height: 50px}
+.page .header h1{ width: 100%; height: 100%; background: url(../img/logo.png);  background-size:100% 100%; position: relative; }
+.page .header h1 div{
+	width: 75px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/back.png);
+	background-size: 100% 100%;
+}
+content .banner { 
+	width: 100%; 
+
+	overflow: hidden;
+}
+content .banner ul{ 
+	width: 2240px; 
+	height: 133px;
+	margin-bottom: 7px;
+	position: relative;
+	top:0;
+	left: 0;
+}
+content .banner ul li{ 
+	width: 320px; 
+	height: 133px;
+	float: left;
+}
+content .banner ul li img{ 
+	width: 100%
+}
+content .banner ol{
+	position: relative;;
+	left: 50%;
+	bottom: 0;
+	margin-left:-22px;
+	width: 45px;
+	height: 5px;
+
+}
+content .banner ol li{ 
+	width:5px;
+	height: 5px;
+	float: left;
+	border-radius: 50%;
+	background:#ccc;
+	margin-right: 5px;
+}
+content .banner ol li:nth-last-child(1) {
+	margin:0;
+}
+content .banner ol li.active { 
+	background:#ff4300;
+}
+
+content .btn{
+	width: 100%;
+	height: 100%;
+}
+content .btn .btns{
+	width: 304px;
+	height: 180px;
+	margin:0 auto;
+}
+
+content .btn .btns li{
+	width: 76px;
+	height: 60px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+}
+content .btn .btns .li1 a{
+	display: block;
+	background: url(../img/icon.png) no-repeat 0 0;
+	width: 40px;
+	margin: 0 auto;
+	height: 60px;
+}
+
+content .btn .btns .li2 a{
+	display: block;
+	background: url(../img/icon2.png) no-repeat 0 0;
+	width: 40px;
+	margin: 0 auto;
+	height: 60px;
+}
+
+content .btn .btns .li3 a{
+	display: block;
+	background: url(../img/icon3.png) no-repeat 0 0;
+	width: 40px;
+	margin: 0 auto;
+	height: 60px;
+}
+
+content .btn .btns .li4 a{
+	display: block;
+	background: url(../img/icon4.png) no-repeat 0 0;
+	width: 40px;
+	margin: 0 auto;
+	height: 60px;
+}
+
+content .btn .btns .li5 a{
+	display: block;
+	background: url(../img/icon5.png) no-repeat 0 0;
+	width: 40px;
+	margin: 0 auto;
+	height: 60px;
+}
+
+content .btn .btns .li6 a{
+	display: block;
+	background: url(../img/icon6.png) no-repeat 0 0;
+	width: 40px;
+	margin: 0 auto;
+	height: 60px;
+}
+
+content .btn .btns .li7 a{
+	display: block;
+	background: url(../img/icon7.png) no-repeat 0 0;
+	width: 40px;
+	margin: 0 auto;
+	height: 60px;
+}
+
+content .btn .btns .li8 a{
+	display: block;
+	background: url(../img/icon8.png) no-repeat 0 0;
+	width: 40px;
+	margin: 0 auto;
+	height: 60px;
+}
+
+content .btn .btns li a p{
+	padding-top:44px;
+	text-align: center;
+}
+
+content .rank{
+	width: 300px;
+	margin: 0 auto;
+}
+content .rank h2{
+	height: 35px;
+	width: 300px;
+	border-bottom: 2px solid #dfdfdf;
+	margin: 0 auto;
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+
+content .rank h2 .left{
+	float: left;
+	display: block;
+	border-left: 2px solid red;
+	padding-left: 6px;
+	height: 15px;
+	line-height: 15px;
+	margin-top:10px;
+	color: #000;
+}
+content .rank h2 .right{
+	float: right;
+	display: block;
+	
+	height: 15px;
+	line-height: 15px;
+	margin-top:10px;
+	color: #000;
+}
+content .rank ul li a{
+	display: block;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 60px;
+}
+content .rank ul li a .left{
+	background: #e00202;
+	width: 30px;
+	height: 60px;
+	font-size: 22px;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	float: left;
+}
+content .rank ul li a .mid{
+	width: 90px;
+	height: 60px;
+	float: left;
+}
+content .rank ul li a .right{
+	height: 60px;
+	width: 180px;
+	float: left;
+	background: #f4f4f4;
+}
+
+content .rank ul li a .right .l{
+	margin: 14px 5px 16px 11px;
+	font-size: 12px;
+	color: #999;
+	float: left;
+}
+content .rank ul li a .right .l b{
+	font-weight: normal;
+	text-decoration: line-through;
+}
+
+content .rank ul li a .right span{
+	color: #d51938;
+	font-family: '微软雅黑';
+
+}
+
+content .rank ul li a .right .r{
+	font-size: 13px;
+	font-weight: bold;
+	position: relative;
+	float: right;
+	text-align: right;
+	width: 77px;
+	line-height: 55px;
+}
+content .rank ul li a .right .r span{
+	
+	text-align: right;
+
+	padding-right: 24px;
+}
+content .rank ul li a .right .r i{
+	
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 60px;
+	width: 24px;
+	background: url(../img/right.png)
+}
+
+content .more{
+	margin:10px auto;
+	height: 40px;
+	width: 300px;
+	background: #f5f5f5;
+	text-align: center;
+	line-height: 24px;	
+}
+content .more a{
+	font-size: 14px;
+	color: #999;
+}
+content .goods{
+	margin:0 auto;
+	width: 301px;
+	height: 176px;
+}
+content .goods .left{
+	 width: 75px;
+	 height: 176px;
+	 float: left;
+}
+content .goods .right{
+	 width: 225px;
+	 height: 175px;
+	 float: left;
+	 border-bottom:1px solid #eee;
+	 border-right:1px solid #eee;
+}
+
+
+content .goods .right ul li{
+	 width: 74px;
+	 height: 43px;
+	 float: left;
+	 border-top:1px solid #eee;
+	 border-left:1px solid #eee;
+	 text-align: center;
+	 line-height: 43px;
+}
+
+content .goods .right ul li a{
+	 width: 74px;
+	 height: 43px;
+	 display: block;
+	 text-align: center;
+	 line-height: 43px;
+	 font-size: 15px;
+	 overflow: hidden;
+	 text-overflow: ellipsis;
+	 white-space: nowrap;
+}
+
+content .client{
+	width: 300px;
+	margin:0 auto;
+}
+content .client a{
+	float: left;
+	width: 100px;
+}
+content .client a img{
+	vertical-align: top
+}
+
+content .login{
+	width: 320px;
+	height: 45px;
+	background: #f8f8f8;
+	margin-top: 10px;
+	position: relative;
+}
+content .login a{
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	color: #000;
+	font-size: 14px;
+	
+}
+content .login .a1{
+	margin-left: 16px;
+}
+content .login .a2{
+	margin-left: 25px;
+}
+content .login .a3{
+	float: right;
+	margin-right: 32px;
+}
+content .login span{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(../img/top.png);
+	width: 30px;
+	height: 45px;
+}
+
+footer{
+	background: #eee;
+	width: 320px;
+	height: 170px;
+	position: relative;
+}
+
+footer .p1{
+	text-align: center;
+	height: 50px;
+}
+footer .p1 a{
+	line-height: 50px;
+	color: #000;
+}
+footer .p2{
+	text-align: center;
+	height: 14px;
+}
+footer .p2 a{
+	line-height: 14px;
+	height: 14px;
+	float: left;
+}
+footer .p2 .a1{
+	margin-left: 65px;
+	margin-right: 10px;
+}
+footer span{
+	background:url(../img/add.jpg);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 320px;
+	height: 102px;
+}
