@@ -103,14 +103,14 @@ window.onload=function (){
 		tab();
 	},3000)
 
-	oBox.onmouseover=function (){
-		clearInterval(timer2);
-	};
-	oBox.onmouseout=function (){
-		timer2=setInterval(function (){
-			iNow++;
-			tab();
-		},3000);
-	};
+	// oBox.onmouseover=function (){
+	// 	clearInterval(timer2);
+	// };
+	// oBox.onmouseout=function (){
+	// 	timer2=setInterval(function (){
+	// 		iNow++;
+	// 		tab();
+	// 	},3000);
+	// };
 
 };
